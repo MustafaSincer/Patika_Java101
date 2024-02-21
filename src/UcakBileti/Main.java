@@ -14,7 +14,7 @@ public class Main {
         }
         System.out.print("Yolculuk tipini giriniz: (Tek yön ise 1 gidiş dönüş ise 2");
         yon = input.nextInt();
-        if (yon != 1 &&q yon !=2){
+        if (yon != 1 &&yon !=2){
             System.out.println("Yanlış yön girdiniz");
         }
         System.out.println("Mesafeyi km cinsinden giriniz :");

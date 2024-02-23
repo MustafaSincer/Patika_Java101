@@ -8,7 +8,7 @@ public class Main {
         n = input.nextInt();
         double total = 0.0;
         for(int i = 1; i<=n ; i++){
-            total += (1.0/iqq) ;
+            total += (1.0/i) ;
         }
         System.out.println(n+ "değerine kadar harmonik seri değeri :" + total);
     }

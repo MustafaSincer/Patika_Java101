@@ -35,6 +35,7 @@ public class Main {
         s2.calcAvarage();
 
         s1.isPass();
+        s1.infoStudent();
 
 
     }

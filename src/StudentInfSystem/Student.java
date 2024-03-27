@@ -92,8 +92,9 @@ public class Student {
     void infoStudent(){
 
         System.out.println("Öğrenci ismi : "+this.Name);
-        System.out.println("Öğrenci  matematik notları :"+this.matematik.Note+ this.matematik.soz_Note + "Fizik notları"
-        +this.fizik.Note+this.fizik.soz_Note+ "Kimya notları :"+ this.kimya.Note+ this.kimya.soz_Note);
+        System.out.println("Öğrenci  matematik sınav notu :  "+this.matematik.Note + "Öğrenci matematik sözlü notu  "+ this.matematik.soz_Note );
+        System.out.println("Öğrenci fizik sınav notu :  " +this.fizik.Note +"Öğrenci fizik sözlü notu :  "+ this.fizik.soz_Note);
+        System.out.println("Öğrenci kimya sınav notu :  " + this.kimya.Note  +"Öğrenci kimya sözlü notu  "+ this.kimya.soz_Note);
 
 
 

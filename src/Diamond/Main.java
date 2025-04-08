@@ -2,35 +2,40 @@ package Diamond;
 import java.util.Scanner;
 public class Main {
 
-    /*
 
-
-
-    sdfasdfasdf
-
-     */
     public static void main(String[] args) {
         int n ;
         Scanner input = new Scanner(System.in);
         System.out.println("n değerini giriniz");
         n = input.nextInt();
-        int m , k ,l;
-        m = 1;
-        while(m<=n){
-            k = 1;
-            while (k<=n-m){
+        // Upper Triangle
+        for(int i = 1 ; i<= n ; i++){
+
+            for (int j = 1 ; j <= (n-i); j++){
+
                 System.out.print(" ");
-                k++;
             }
-            l=1;
-            while(l<=(2*m)-1){
+            for (int k = 1 ; k<= (2*i-1); k++){
+
                 System.out.print("*");
-                l++;
             }
-
-
             System.out.println();
-            m++;
+
+
+
+        }
+        //lower triangle
+
+        for (int i = n-1; i >= 1 ; i --){
+
+            for(int j =1 ; j<= n-i; j++ ){
+                System.out.print(" ");
+            }
+            for (int k = 1 ; k <= (2*i-1); k++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         }
 
 
@@ -40,5 +45,6 @@ public class Main {
 
 
 
-    }
+
 }
+
